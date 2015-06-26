@@ -3,7 +3,7 @@
 import chmapUtil as ch
 
 def main():
-    UTTER_FILE = "input/utterName.txt"
+    UTTER_FILE = "input/test_utterName.txt"
     WORDS_FILE = "input/test_mfcc_-2_512-4.267.labIdx48.smoothWin3.phoneSeq.possible200.words"
     OUTPUT_FILE = "output/" + WORDS_FILE[6:] + ".chr.csv"
     
